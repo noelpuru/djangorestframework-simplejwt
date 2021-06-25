@@ -44,14 +44,14 @@ extras_require['dev'] = (
 
 
 setup(
-    name='djangorestframework_simplejwt',
-    version='4.4.0',
-    url='https://github.com/davesque/django-rest-framework-simplejwt',
+    name='drf_simplejwt',
+    version='4.4.1',
+    url='https://github.com/noelpuru/django-rest-framework-simplejwt',
     license='MIT',
     description='A minimal JSON Web Token authentication plugin for Django REST Framework',
     long_description=open('README.rst', 'r', encoding='utf-8').read(),
     author='David Sanders',
-    author_email='davesque@gmail.com',
+    author_email='noelpuru@gmail.com',
     install_requires=[
         'django',
         'djangorestframework',
